@@ -23,7 +23,25 @@ public class AssuranceVie extends Compte {
         this.taux = taux;
     }
 
-    @Override
+    
+
+	public LocalDate getDateFin() {
+		return dateFin;
+	}
+
+	public void setDateFin(LocalDate dateFin) {
+		this.dateFin = dateFin;
+	}
+
+	public double getTaux() {
+		return taux;
+	}
+
+	public void setTaux(double taux) {
+		this.taux = taux;
+	}
+
+	@Override
     public String toString() {
         return "AssuranceVie{" +
                 "dateFin=" + dateFin +

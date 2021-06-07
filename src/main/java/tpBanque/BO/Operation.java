@@ -28,6 +28,13 @@ public class Operation implements Serializable {
     private Compte compte;
 
     public Operation() {
+    	
+    }
+    
+    public Operation(LocalDate date, double montant, String motif) {
+    	this.date = date;
+        this.montant = montant;
+        this.motif = motif;
     }
 
     public Operation(long id, LocalDate date, double montant, String motif) {

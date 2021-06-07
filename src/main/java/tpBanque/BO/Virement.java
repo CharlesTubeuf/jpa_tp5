@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 @DiscriminatorValue("Virement")
 public class Virement extends Operation {
 
-    @Column(name = "BENEFICIAIRE", nullable = false)
+    @Column(name = "BENEFICIAIRE")
     private String beneficiaire;
 
     public Virement() {
@@ -32,4 +32,6 @@ public class Virement extends Operation {
                 "beneficiaire='" + beneficiaire + '\'' +
                 '}';
     }
+    
+    
 }

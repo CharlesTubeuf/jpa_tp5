@@ -1,7 +1,5 @@
 package tpBanque.BO;
 
-import jdk.jfr.Enabled;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
